@@ -48,6 +48,67 @@ class FizzBuzzTest {
 
         assertEquals("Fizz", valorInicial);
     }
+    @Test
+    void testearNumero7() {
+        String valorInicial = FizzBuzz.returnNumber(7);
 
+        assertEquals("7", valorInicial);
+    }
+
+    @Test
+    void testearNumero8() {
+        String valorInicial = FizzBuzz.returnNumber(8);
+
+        assertEquals("8", valorInicial);
+    }
+
+    @Test
+    void testearNumero9() {
+        String valorInicial = FizzBuzz.returnNumber(9);
+
+        assertEquals("Fizz", valorInicial);
+    }
+
+    @Test
+    void testearNumero10() {
+        String valorInicial = FizzBuzz.returnNumber(10);
+
+        assertEquals("Buzz", valorInicial);
+    }
+
+    @Test
+    void testearNumero11() {
+        String valorInicial = FizzBuzz.returnNumber(11);
+
+        assertEquals("11", valorInicial);
+    }
+
+    @Test
+    void testearNumero12() {
+        String valorInicial = FizzBuzz.returnNumber(12);
+
+        assertEquals("Fizz", valorInicial);
+    }
+
+    @Test
+    void testearNumero13() {
+        String valorInicial = FizzBuzz.returnNumber(13);
+
+        assertEquals("13", valorInicial);
+    }
+
+    @Test
+    void testearNumero14() {
+        String valorInicial = FizzBuzz.returnNumber(14);
+
+        assertEquals("14", valorInicial);
+    }
+
+    @Test
+    void testearNumero15() {
+        String valorInicial = FizzBuzz.returnNumber(15);
+
+        assertEquals("FizzBuzz", valorInicial);
+    }
 }
 
